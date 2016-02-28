@@ -1648,7 +1648,7 @@ static bt_status_t  configure_wbs( bt_bdaddr_t *bd_addr , bthf_wbs_config_t conf
 static const bthf_interface_t bthfInterface = {
     sizeof(bthfInterface),
     init,
-    init_features,
+//    init_features,
     connect,
     disconnect,
     connect_audio,
