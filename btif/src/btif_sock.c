@@ -66,8 +66,8 @@ static btsock_interface_t sock_if = {
                 sizeof(sock_if),
                 btsock_listen,
                 btsock_connect,
-                btsock_get_sockopt,
-                btsock_set_sockopt
+//                btsock_get_sockopt,
+//                btsock_set_sockopt
        };
 btsock_interface_t *btif_sock_get_interface()
 {
