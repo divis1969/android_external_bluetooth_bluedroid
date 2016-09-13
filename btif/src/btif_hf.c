@@ -1663,7 +1663,7 @@ static const bthf_interface_t bthfInterface = {
     at_response,
     clcc_response,
     phone_state_change,
-    get_remote_features,
+//    get_remote_features,
     cleanup,
     configure_wbs,
 };
